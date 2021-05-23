@@ -1,0 +1,334 @@
+/* COLOUR REFERENCES
+
+Green:		#79b044
+Salmon:		#dd5638
+Blue Gray:  #3e4249
+
+*/
+
+/* ==== GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+/* ==== GLOBAL ==== */
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Montserrat-Bold";
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1,h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p.lead {
+	margin: 0 0 40px;
+	font-weight:normal;
+
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+.colored-section {
+  background-color: #e4fbff;
+  color: #3b5360;
+}
+
+.title-image {
+  width: 2%;
+  position: absolute;
+  left:1px;
+	top:5px;
+}
+.title-brand {
+  width: 2%;
+  position: absolute;
+  left:1px;
+	top:5px;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #e8e8e8;
+}
+
+.testimonial-text {
+  font-size: 1.5 rem;
+  line-height: 1;
+	text-align: center;
+}
+
+#testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  center: 30%;
+}
+
+em {
+  font-style: italic;
+	text-align: left;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* ==== HERO ==== */
+
+
+
+#hero {
+	background: url('../img/United_States_MC1.jpg') 95% 0  repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+
+/* ==== LAYOUT ==== */
+
+.row + .row {
+	margin-top: 20px;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.section-header {
+	text-align: center;
+}
+
+section h2 {
+	margin: 20px 0 40px;
+}
+
+section h3 {
+	margin: 30px 0 10px;
+}
+
+section.main-content {
+	padding: 40px 0;
+}
+
+#primary {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.feature-image {
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	background: url('../img/stuff-feature.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url('../img/hipster-stuff.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
+
+
+#optin {
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0;
+}
+
+#course-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+
+#who-benefits {
+	background: white;
+}
+
+#project-features {
+	text-align: center;
+}
+
+#featurette {
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+
+
+.testimonial {
+	margin-bottom: 60px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+}
+
+/* ==== Personal Letters  ==== */
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+/* ==== Footer ==== */
+
+
+footer {
+	background: #f4f9f9;
+	color: black;
+	padding: 20px 0 10px;
+	font-size: 14px;
+	font-size: Bold
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a:link, footer a:visited {
+	color: black;
+}
+
+footer a:hover {
+	color: #79b044;
+}
+
+footer li.signup-link a {
+	color: #79b044;
+}
+
+footer li.signup-link a:hover {
+	font-weight: bold;
+}
+
+.copy_right{
+	text-align: right;
+	font-weight: bold;
+}
+
+* === RESOURCES === */
+
+.resource {
+	width: 31.33333333%;
+	float: left;
+	margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* === WIDGETS === */
+
+.widget {
+	padding: 20px;
+}
+
+.widget h4 {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: solid 1px #ddd;
+}
+
+.widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget ul li {
+	margin: 0 0 5px;
+}
+
+.widget ul li:hover {
+	position: relative;
+	left: 1px;
+}
