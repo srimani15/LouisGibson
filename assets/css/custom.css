@@ -8,6 +8,10 @@ Blue Gray:  #3e4249
 
 /* ==== GENERAL ==== */
 
+contact-body{
+	margin: 0;
+}
+
 body {
 	margin-top: 50px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
